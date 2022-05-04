@@ -31,6 +31,8 @@ treesitter.setup {
 }
 ```
 
+You should run `:TSInstall cue` in a new nvim instance after making these configuration changes.
+
 For highlighting to work, copy
 [./queries/highlights.scm](./queries/highlights.scm) in your nvim configuration
 (usually `~/.config/nvim`) in a directory `queries/cue/`.
